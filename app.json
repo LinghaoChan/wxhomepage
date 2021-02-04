@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/hat/hat",
+    "pages/cup/cup" 
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Linghao Chen ",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#7dc5eb",
+    "list": [{
+      "selectedIconPath": "img/homebingo.png",
+      "iconPath": "img/home.png",
+      "pagePath": "pages/index/index",
+      "text": "Home"
+    }, {
+      "selectedIconPath": "img/cupbingo.png",
+      "iconPath": "img/cup.png",
+      "pagePath": "pages/cup/cup",
+      "text": "Awards"
+    }, {
+      "selectedIconPath": "img/hatbingo.png",
+      "iconPath": "img/hat.png",
+      "pagePath": "pages/hat/hat",
+      "text": "School Life"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

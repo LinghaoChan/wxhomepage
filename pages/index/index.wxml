@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<view class="namephoto">
+  <view class="left">
+    <view class="left-name">
+      <text decode="true">&nbsp;Linghao Chen&nbsp;</text>
+      <image src="/img/name.png" style="height:60rpx; width:190rpx"></image>
+    </view>
+
+
+  </view>
+  <image class="right" src="/img/lhchen.png"></image>
+</view>
+
+
+<view class="container1">
+    <text>Hi here, I'm Linghao Chen (陈凌灏 in Chinese)! Now, I am a student in School of Computer Science and Technology at Xidian University. My major is software engineering. I am expected to graduate in 2022. My research interest includes Graph representation learning and Anomaly detection.</text>
+</view>
+<view class="address">
+  <text>
+    <text style="font-weight:800">Address: </text>No.7 Begonia College(海棠7号书院), 266 Xinglong Section of Xifeng Road, Xi'an, ShaanXi, P.R.China. 
+  </text>        
+</view>
+
+<view class="container2">
+  <text>
+    <text style="font-weight:800">Motto: </text>Seek the truth, practice real skills and do real things!  
+  </text>
+</view>
+
+
+<swiper indicator-dots = "true" style="height:200rpx; font-size:36rpx">
+  <swiper-item class="slider">
+    <view>Email-1: {{email1}} </view>
+    <button class="btn" size="mini" bindtap='copyText' data-text="{{email1}}">Cooy it!</button>  
+  </swiper-item>  
+
+  <swiper-item class="slider">
+    <view>Email-2: {{email2}} </view>
+    <button class="btn" size="mini" bindtap='copyText' data-text="{{email2}}">Cooy it!</button>  
+  </swiper-item>  
+
+  <swiper-item class="slider">
+    <view>Github:LinghaoChan </view>
+    <button class="btn" size="mini" bindtap='copyText' data-text="{{github}}">Cooy it!</button>  
+  </swiper-item>    
+
+  <swiper-item class="slider">
+    <view>Zhihu(知乎): XDU陈凌灏 </view>
+    <button class="btn" size="mini" bindtap='copyText' data-text="{{zhihu}}">Cooy it!</button>  
+  </swiper-item>  
+
+  <swiper-item class="slider">
+    <view>WeChat(公众号): ZEROHAO </view>
+    <button class="btn" size="mini" bindtap='copyText' data-text="{{WeChat}}">Cooy it!</button>  
+  </swiper-item>  
+
+</swiper>
+

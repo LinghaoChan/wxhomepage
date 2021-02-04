@@ -1,0 +1,75 @@
+<!--pages/cup/cup.wxml-->
+<view class="title2">
+  <text> My Grade</text>
+</view>
+
+<view class="grade">
+  <view>
+
+  </view>
+  <view >
+    <text>
+      <text style="font-weight:800">Rank:</text>2/411({{'<'}}1%)
+    </text>
+    <text>
+      <text style="font-weight:800">Score:</text>91.0/100
+    </text>
+    <text>
+      <text style="font-weight:800">GPA:</text>3.90/4.00
+    </text>
+    <text>
+      <text style="font-weight:800">CET4:</text>520
+    </text>
+  </view>
+  
+  <view>
+    
+  </view>
+</view>
+
+<text decode="true">&nbsp;
+  </text>
+
+
+<view class="title">
+  <text> Awards</text>
+</view>
+
+
+<view class="awards">
+  <text>
+    2019 ~ 2020, <text style="font-weight:800">Natioal Scholarship({{'<'}}1%), Special scholarship({{'<'}}1%), School-level outstanding student model({{'<'}}1%)</text>.
+  </text>
+
+  <text>
+    2018 ~ 2019, <text style="font-weight:800">Natioal Scholarship({{'<'}}1%), School-level outstanding student model({{'<'}}1%)</text>.
+  </text>
+
+  <text>
+    Sep. 2020, The National College Student Mathematical Modeling Competition <text style="font-weight:800">(National level), First Prize({{'<'}}0.7%)</text> 
+  </text>
+  <text decode="true">&nbsp;
+  </text>
+  <text>
+    Apr. 2020, MCM/ICM, <text style="font-weight:800">Honorable Prize</text>.
+  </text>
+
+  <text>
+    Sep. 2019, The National College Student Mathematical Modeling Competition (Shaanxi Division), <text style="font-weight:800">First Prize</text>.
+  </text>
+
+  <text>
+    Sep. 2019, The 12th College Student Mathematics Competition in Shaanxi Province, <text style="font-weight:800">First Prize</text>.
+  </text>
+
+  <text>
+    Oct. 2020, The 12th National College Student Mathematics Competition, <text style="font-weight:800">Second Prize</text>.
+  </text>
+
+  <text>
+    Oct. 2019, The 11th National College Student Mathematics Competition, <text style="font-weight:800">Second Prize</text>.
+  </text>
+
+</view>
+
+
