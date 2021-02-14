@@ -1,2 +1,42 @@
-<!--pages/hat/hat.wxml-->
-<text>pages/hat/hat.wxml</text>
+<view class="title2">
+  <text> My Grade</text>
+</view>
+
+<view class="grade">
+  <view>
+
+  </view>
+  <view >
+    <text>
+      <text style="font-weight:800">Rank:</text>2/411({{'<'}}1%)
+    </text>
+    <text>
+      <text style="font-weight:800">Score:</text>91.0/100
+    </text>
+    <text>
+      <text style="font-weight:800">GPA:</text>3.90/4.00
+    </text>
+    <text>
+      <text style="font-weight:800">CET4:</text>520
+    </text>
+  </view>
+  
+  <view>
+    
+  </view>
+</view>
+
+<text decode="true">&nbsp;
+  </text>
+
+
+
+
+
+<view class="title2">
+  <text> Student Work </text>
+</view>
+<view class = "inspur">
+  <image src="/img/inspur.png" style="height:70rpx; width:320rpx" ></image>
+  <text class="textsize">	Currently I am the chairman of the Inspur Student Club(ISC) of Xidian University. I am mainly responsible for the Machine Learning and Data Mining Group in the club.</text>
+</view>

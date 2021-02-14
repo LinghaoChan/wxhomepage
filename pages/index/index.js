@@ -5,6 +5,7 @@ const app = getApp()
 Page({
   data: {
     motto: 'Hello World',
+    homempage: 'https://lhchen.top',
     email1: 'xdu.lhchen@gmail.com',
     email2: 'Linghao_Chen@163.com',
     github: 'https://github.com/LinghaoChan',

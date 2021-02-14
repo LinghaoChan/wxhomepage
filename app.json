@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/hat/hat",
-    "pages/cup/cup" 
+    "pages/cup/cup",
+    "pages/link/link" 
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -27,7 +28,12 @@
       "selectedIconPath": "img/hatbingo.png",
       "iconPath": "img/hat.png",
       "pagePath": "pages/hat/hat",
-      "text": "School Life"
+      "text": "School"
+    }, {
+      "selectedIconPath": "img/linkbingo.png",
+      "iconPath": "img/link.png",
+      "pagePath": "pages/link/link",
+      "text": "Links"
     }]
   },
   "style": "v2",

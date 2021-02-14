@@ -1,0 +1,19 @@
+<view class="item">
+  <view style="padding: 10rpx;">Spectral Analysis of Graph Convolutional Network (GCN)</view>
+  <button class="btn" size="mini" bindtap='copyText' data-text="{{link1}}">Cooy it!</button>   
+</view>
+
+<view class="item">
+  <view style="padding: 10rpx;">Guide for Graph Representation Learning</view>
+  <button class="btn" size="mini" bindtap='copyText' data-text="{{link2}}">Cooy it!</button>   
+</view>
+
+<view class="item">
+  <view style="padding: 10rpx;">[KDD'20] AM-GCN: Adaptive Multi-channel Graph Convolution Network</view>
+  <button class="btn" size="mini" bindtap='copyText' data-text="{{link3}}">Cooy it!</button>   
+</view>
+
+<view class="item">
+  <view style="padding: 10rpx;">[ICLR'19] GRAPH WAVELET NEURAL NETWORK </view>
+  <button class="btn" size="mini" bindtap='copyText' data-text="{{link4}}">Cooy it!</button>   
+</view>

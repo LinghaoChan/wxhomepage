@@ -30,27 +30,32 @@
 
 <swiper indicator-dots = "true" style="height:200rpx; font-size:36rpx">
   <swiper-item class="slider">
-    <view>Email-1: {{email1}} </view>
+    <view style="padding:10rpx">My Homepage</view>
+    <button class="btn" size="mini" bindtap='copyText' data-text="{{homepage}}">Cooy it!</button>  
+  </swiper-item>  
+
+  <swiper-item class="slider">
+    <view style="padding:10rpx">Email-1: {{email1}} </view>
     <button class="btn" size="mini" bindtap='copyText' data-text="{{email1}}">Cooy it!</button>  
   </swiper-item>  
 
   <swiper-item class="slider">
-    <view>Email-2: {{email2}} </view>
+    <view style="padding:10rpx">Email-2: {{email2}} </view>
     <button class="btn" size="mini" bindtap='copyText' data-text="{{email2}}">Cooy it!</button>  
   </swiper-item>  
 
   <swiper-item class="slider">
-    <view>Github:LinghaoChan </view>
+    <view style="padding:10rpx">Github: LinghaoChan </view>
     <button class="btn" size="mini" bindtap='copyText' data-text="{{github}}">Cooy it!</button>  
   </swiper-item>    
 
   <swiper-item class="slider">
-    <view>Zhihu(知乎): XDU陈凌灏 </view>
+    <view style="padding:10rpx">Zhihu(知乎): XDU陈凌灏 </view>
     <button class="btn" size="mini" bindtap='copyText' data-text="{{zhihu}}">Cooy it!</button>  
   </swiper-item>  
 
   <swiper-item class="slider">
-    <view>WeChat(公众号): ZEROHAO </view>
+    <view style="padding:10rpx">WeChat(公众号): ZEROHAO </view>
     <button class="btn" size="mini" bindtap='copyText' data-text="{{WeChat}}">Cooy it!</button>  
   </swiper-item>  
 

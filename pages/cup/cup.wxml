@@ -1,5 +1,5 @@
 <!--pages/cup/cup.wxml-->
-<view class="title2">
+<!-- <view class="title2">
   <text> My Grade</text>
 </view>
 
@@ -28,7 +28,7 @@
 </view>
 
 <text decode="true">&nbsp;
-  </text>
+  </text> -->
 
 
 <view class="title">
